@@ -15,7 +15,8 @@ public static void main(String args[]) throws IOException {
 		try {
 			fr = new FileReader("C:\\Users\\Ceinmark\\eclipse-workspace\\Manejo de archivos\\src\\manejodearchivos\\java.txt");
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			System.out.println(e.getStackTrace());
+//			e.printStackTrace();
 		}
 		
 		BufferedReader br = new BufferedReader(fr);
