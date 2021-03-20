@@ -27,6 +27,7 @@ public static void main(String args[]) throws IOException {
 			if(linea !=null) {
 				System.out.println(linea);
 				counter  += linea.split(" ").length;
+				System.out.println("wow");
 			
 			}
 		System.out.println(counter);
